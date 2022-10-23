@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_triangle - prints a triangle
- * @n: Size of the triangle
- */
+* print_triangle - prints a triangle
+* @n: Size of the triangle
+*/
 void print_triangle(int n)
 {
 	int h, tri;
@@ -19,7 +19,7 @@ void print_triangle(int n)
 				_putchar('#');
 
 			if (h == n)
-				comtinue;
+				continue;
 
 			_putchar('\n');
 		}
