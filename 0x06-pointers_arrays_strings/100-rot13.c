@@ -1,5 +1,3 @@
-100-rot13.c
-
 #include "main.h"
 #include <stdio.h>
 
