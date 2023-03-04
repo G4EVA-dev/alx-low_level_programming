@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * reverse_array - reverses an array if interders
+ * reverse_array - reverses an array of integers
  * @a: array
  * @n: number of elements of the array
  * Return: rev
@@ -17,5 +17,5 @@ void reverse_array(int *a, int n)
 		t = a[i];
 		a[i] a[n];
 		a[n] = t;
-		}
 	}
+}
